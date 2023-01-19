@@ -1,0 +1,10 @@
+Go to master branch:  git checkout master
+Update the master branch:   git pull origin master 
+Create a new branch:   git checkout -b feature/BRANCH_NAME
+Do some changes.
+Check your changed files: git status
+Add your changes into your branch: git add FILES_NAME
+Add some msg: git commit -m "YOUR_MESSAGE"
+Send your changes to github: git push origin feature/BRANCH_NAME
+To get all the branches:  git fetch --all
+Got to desired branch:  git checkout feature/BRANCH_NAME

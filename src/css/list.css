@@ -1,0 +1,388 @@
+.list-inline>li {
+    display: inline-block;
+	margin-bottom: 0;
+	margin-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.media-object{
+	width: 120px !important;
+	height: 40px !important;
+}
+.c-link:hover{
+text-decoration: none;
+color: #111;
+}
+
+.media-body{
+	width: 300px !important;
+}
+.media-heading{
+	font-weight: bolder;
+}
+
+/* ul{
+    list-style-type:none;
+} */
+
+.com-list{
+	padding-left:0px !important;
+	list-style-type:none;
+}
+
+.contain{
+	width:900px !important;
+	 margin-left:30px !important; 
+	/* margin-top : 50px ;
+	margin-right: 20px !important;  */
+}
+
+.jobguru-job-tab-area{
+	font-family: var(--font);
+	font-weight: bolder;
+	width:1000px !important;
+	margin-left:20px !important;
+	/* margin-top : 50px ;
+	margin-right: 0px !important; */
+	margin:auto !important;
+	display: flex !important;
+    flex-direction:row;
+}
+
+.logo{
+    margin:auto !important;
+    width:100px;
+    height:35px;
+}
+/* .top-company-tab ul li{
+	margin: 20px 0;
+} */
+.top-company-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 10px;
+	top: 0;
+    border: 1px solid #eee;
+
+    /* display: block; */
+	margin-bottom: 15px;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #eee;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	/* padding: 20px; */
+	border-radius: 4px;
+
+}
+
+.top-company-list:hover {
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1)
+}
+
+
+.top-company-list .company-list-logo {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	max-width: 120px;
+	margin-right: 25px;
+	position: relative;
+	top: 3px;
+}
+
+.top-company-list .company-list-details {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding-top: 5px;
+}
+
+.top-company-list .company-list-details>h3 {
+	font-size: 23px;
+	height: 25px;
+	font-weight: bolder;
+	text-transform: capitalize;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-bottom: 7px;
+	color: #707070;
+}
+
+.top-company-list .company-list-details>h3>a {
+	color: #707070;
+}
+
+.company-list-details p {
+	display: inline-block;
+	margin-right: 10px;
+    position: relative;
+}
+
+.company-list-details p i {
+	margin-right: 7px;
+}
+
+.company-state i {
+	color: #16a8d8;
+}
+.open-icon{
+font-size:15px;
+width:400px !important;
+/* height:fit-content; */
+
+}
+.open-icon i {
+	color: #ef8c45;
+  
+}
+
+.site-heading{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+    padding-top: 40px;
+}
+
+.site-heading h2{
+	color: #707070;
+	font-weight: bolder;
+	text-decoration: underline;
+	/* color: blue; */
+	font-size: 40px;
+	margin-bottom: 50px;
+	width: 70%;
+    
+}
+
+.varify i {
+	color: #4bd518;
+}
+
+.rating-company {
+	background: #febe42 none repeat scroll 0 0;
+	line-height: normal;
+	padding: 0 6px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.candidate-text-inner p.rating-company {
+	display: inline-block;
+	font-size: 18px;
+}
+
+.candidate-text-inner ul {
+	margin-top: 10px;
+}
+
+.candidate-text-inner ul li {
+	display: inline-block;
+	margin: 0 2px
+}
+
+.candidate-text-inner ul li i {
+	color: #febe42;
+	font-size: 17px;
+}
+
+/* .company-list-btn a.jobguru-btn {
+	background: transparent none repeat scroll 0 0;
+	color: #111;
+	border: 1px solid #25AD60;
+    height:100px !important;
+    width:200px !important;
+}
+
+.company-list-btn a.jobguru-btn:hover {
+	background: #25AD60 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #25AD60;
+}  */
+
+/* .company-list-btn{
+	height:3px !important;
+	width:80px !important;
+} */
+
+.btone{
+    background: transparent none repeat scroll 0 0;
+	color: #25AD60;
+    text-align:center !important;
+	margin: auto;
+    margin-right: 0 !important;
+	border: 1px solid #25AD60;
+    height:30px !important;
+    width:80px !important;  
+    border-radius:10px;
+}
+
+.btone:hover {
+    background: #25AD60 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #25AD60; 
+    text-decoration: none; 
+}
+.jobguru-btn{
+	color: #111;
+}
+.jobguru-btn:hover{
+	color: #fff;
+    text-decoration: none; 
+}
+
+
+
+
+.load-more{
+    margin:auto !important;
+    width:fit-content;
+}
+/* 
+.btone{
+    background: transparent none repeat scroll 0 0;
+	color: #111;
+	border: 1px solid #25AD60;
+    height:200px !important;
+    width:250px !important;  
+    border-radius:0px;   
+}
+
+.btone:hover{
+    background: #25AD60 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #25AD60;   
+} */
+
+
+.page-load-status {
+    display: none; /* hidden by default */
+    padding-top: 20px;
+    border-top: 1px solid #DDD;
+    text-align: center;
+    color: #707070;
+  }
+
+  .infinite-scroll-component  {
+	  /* display: flex; */
+	  /* flex-direction: column; */
+	  align-items: center !important;
+  }
+
+  @media (max-width: 700px) {
+
+	.list-inline{
+		margin: 0 5px;
+		font-size:13px;
+	}
+
+	.media-object{
+		width: 85px !important;
+		height: 30px !important;
+	}
+	.btone{
+		
+	margin-top: 5px;
+		margin-right: auto !important;
+	}
+
+	.site-heading h2{
+		/* font-weight: bolder; */
+		margin-bottom: 50px;
+		width: max-content;
+		text-align: center;
+		font-size: 1.5rem;
+		text-decoration: none;
+	}
+	  .media-heading{
+		  /* display: none; */
+		  margin-top: 10px;
+	  }
+	.open-icon{
+		text-align: center !important;
+		font-size:14px;
+		width:300px !important;
+		}
+	.top-company-list {
+		margin-left: 10px;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		width: 270px;	
+        flex: 0;
+		height: 220px;
+	}
+	
+	.jobguru-job-tab-area{
+		width:300px !important;
+	}
+	/* .media-body{
+		width: 300px !important;
+	} */
+	.contain{
+		width:300px !important;
+		padding-right: 0px !important ;
+		margin-left:5px !important;
+		
+	}
+	.com-list{
+		width:300px !important;
+	}
+	
+	.varify{
+		display:none !important;
+	}
+
+	.company-list-logo{
+		
+			max-width:60px !important;
+			height:40px !important;
+			
+	}
+
+	.logo{
+		
+			margin:auto !important;
+			width:60px !important;
+			height:40px !important;
+		
+	}
+
+	.company-list-details{
+		width:fit-content !important;
+		font-size:12px;
+	}
+	.header
+	 {
+		/* width:fit-content !important;
+		display:inline-block !important; 
+		position:relative;
+		bottom: 40px; 
+		left:250px; */
+		font-size:20px !important;
+	}
+
+	/* .open-icon{
+		position:relative;
+		bottom:60px;
+		left:0px;
+		font-size:13px;
+		right:150px !important ;
+		width:fit-content !important;
+		height:fit-content;
+		
+		} */
+
+		/* .company-state{
+			position:relative;
+			top:20px;
+		} */
+
+  }

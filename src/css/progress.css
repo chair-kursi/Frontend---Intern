@@ -1,0 +1,231 @@
+  .containers {
+    /* width: 97%; */
+    z-index: 5 !important;
+    position: relative;
+    top: -180px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    overflow: hidden;
+    margin: 50px 0;
+    height: 150px;
+    text-align: center;
+  }
+
+  .resetNow {
+    padding: 100px 600px;
+  }
+
+  .progress-bar-container {
+    text-align: center;
+    position: relative;
+    width: 550px;
+  }
+
+
+  .progress-bar-containers {
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: inherit;
+  }
+
+  .circles-containers {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 600px;
+  }
+
+  #progress-bar {
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 10px;
+    /* width: 0%; */
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    transition: 0.3s ease;
+  }
+
+  .circles-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 800px;
+  }
+
+  .circle {
+    color: var(--primary-color);
+    width: 500px !important;
+    border: 3px solid var(--primary-color) !important;
+    height: 40px;
+    /* border-radius: 50%; */
+    position: relative;
+    z-index: 2;
+    background-color: var(--light-color);
+    transition: 0.4s ease;
+  }
+
+  .circle h3 {
+    text-align: center !important;
+    position: relative;
+    top: 10%;
+    font-size: 20px;
+    color: var(--grey-color);
+  }
+
+  .circle.active {
+    width: 500px !important;
+    background-color: var(--primary-color);
+  }
+
+  .circle.active h3 {
+    color: var(--light-color);
+  }
+
+  .circles {
+    color: var(--primary-color);
+    width: 500px !important;
+    border: 3px solid var(--primary-color) !important;
+    height: 40px;
+    /* border-radius: 50%; */
+    position: relative;
+    z-index: 2;
+    background-color: var(--light-color);
+    transition: 0.4s ease;
+  }
+
+  .circles h3 {
+    text-align: center !important;
+    position: relative;
+    top: 10%;
+    font-size: 20px;
+    color: var(--grey-color);
+  }
+
+  .circles.active {
+    width: 500px !important;
+    background-color: var(--primary-color);
+  }
+
+  .circles.active h3 {
+    color: var(--light-color);
+  }
+
+
+
+  .form-groups {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .btns {
+    margin: 3px;
+    height: 30px;
+    width: 80px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 10%;
+    border-color: var(--light-color);
+  }
+
+  .btns:hover {
+    cursor: pointer;
+    background-color: var(--primary-color-lighter);
+  }
+
+  .btn:disabled {
+    cursor: not-allowed;
+    background-color: var(--primary-color-darker);
+    color: var(--grey-color);
+    border-color: var(--grey-color);
+  }
+
+  .btn:active {
+    transform: scale(0.95);
+  }
+
+  .btn:focus {
+    outline: 0;
+  }
+
+  @media (max-width: 700px) {
+    .containers {
+      margin: 150px 0 50px 0;
+      height: 100px;
+      width: 375px;
+      position: relative;
+      top: -150px;
+      left: 2px;
+    }
+
+    .progress-bar-container {
+      /* margin-top: 50px; */
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      width: 170px;
+    }
+
+    .progress-bar-containers {
+      /* margin-top: 50px; */
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      width: 300px;
+    }
+
+    /* .progress-bar-container::before {
+    width: 170px !important;
+  } */
+    .circle {
+      align-items: center;
+      width: 220px !important;
+      height: 40%;
+    }
+
+    .circle h3 {
+      margin-top: 2%;
+      top: 12%;
+      font-size: 15px;
+    }
+
+    .circle.active {
+      width: 200px !important;
+      background-color: var(--primary-color);
+    }
+
+
+
+    .circles {
+      align-items: center;
+      height: 40%;
+    }
+
+    .circles h3 {
+      margin-top: 2%;
+      top: 12%;
+      font-size: 12px;
+    }
+
+    .circles.active {
+      width: 500px !important;
+      background-color: var(--primary-color);
+    }
+  }

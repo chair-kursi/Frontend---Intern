@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.about-us{
+  font-family: var(--font);
+  font-weight: 900px;
+  text-align: justify;
+  padding: 50px;
+  margin: 100px 200px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (max-width: 700px) {
+  .about-us{
+    margin: 10px 10px;
+  }
+  }

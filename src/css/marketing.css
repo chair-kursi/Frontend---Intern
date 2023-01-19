@@ -1,0 +1,137 @@
+#features {
+  /* margin-top: 500px; */
+    font-family: var(--font);
+    position: relative;
+    padding-bottom: 5%;
+    height :max-content portant;
+    /* padding: auto; */
+    /* background-image: linear-gradient(to left, #4facfe 0%, #00f2fe 100%); */
+    /* background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%); */
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+    /* background-color: #F6F6F6; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+    /* background-color: #F4F3F3; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png"); */
+
+    background-color: #f0f0f0;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    }
+
+  .clients{
+    font-family: var(--font);
+  }
+  .rej{
+    /* margin: auto 200px; */
+    /* width:auto !important; */
+    justify-content: space-around !important;
+  }
+  .feature-title {
+    /* font-family: 'Lobster', cursive !important; */
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #A0937D;
+    font-weight: bolder;
+    /* text-shadow: 1px 3px 1px #c2c2c2; */
+  }
+  .feature-box {
+    height: 200px;
+    background-color: white;
+    margin: 80px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 10px 8px 5px 1px #c2c2c2;
+    -webkit-box-shadow: 10px 8px 5px 1px #c8c8c8;
+     -moz-box-shadow: 10px 8px 5px 1px #cbcbcb;
+  }
+  .feature-box p{
+    font-family: var(--font);
+    font-size: 1.2rem;
+    color: #A0937D;
+    font-weight: bolder;
+  }
+  .icon {
+    color: #A0937D;
+    margin-bottom: 0.2rem;
+  }
+  
+
+.idk{
+  margin-top: 80px;
+  width: 1100px;
+  height: 400px;
+  margin: auto !important;
+  /* background-color: #3EDBF0; */
+}
+.each{
+  height: 100px;
+  width: 70% !important;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.each:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.head{
+  font-weight: bolder;
+  text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.fst{
+  height: 100px;
+}
+.client-logo {
+  width: 80%;
+  height: auto;
+}
+
+
+@media (max-width: 1000px){
+  .idk{
+    width: 95%;
+    height: 500px;
+    /* margin: auto !important; */
+  }
+  .fst{
+    height: 300px;
+  }
+  .feature-box {
+    margin: 80px 33px 20px 33px;
+  }
+}
+  @media (max-width: 700px) {
+    .feature-title {
+      font-size: 2rem;
+      color: #A0937D;
+      font-weight: bolder;
+    }
+    .feature-box p{
+      font-size: 1rem;
+      color: #A0937D;
+      font-weight: bolder;
+    } 
+    .each{
+      margin: auto !important;
+      height: 55px;
+      width: 33% !important;
+    }
+    .idk{
+      height: 20%;
+    }
+    .fst{
+      margin: auto !important;
+      height: 40%;
+    }
+    .head{
+     font-size: 35px;
+     margin-bottom: 50px;
+  }
+      
+  }

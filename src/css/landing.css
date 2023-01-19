@@ -1,0 +1,28 @@
+#employee-landing{
+    display : flex;
+    justify-content: space-between;
+     overflow-x: hidden;
+
+
+
+     background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/vichy.png");
+
+
+     /* background-color: #ffffff;
+     background-image:  url("http://www.transparenttextures.com/patterns/xv.png"); */
+
+
+/* opacity: 1;
+background-image:  linear-gradient(30deg, #f2f2f2 12%, transparent 12.5%, transparent 87%, #f2f2f2 87.5%, #f2f2f2), linear-gradient(150deg, #f2f2f2 12%, transparent 12.5%, transparent 87%, #f2f2f2 87.5%, #f2f2f2), linear-gradient(30deg, #f2f2f2 12%, transparent 12.5%, transparent 87%, #f2f2f2 87.5%, #f2f2f2), linear-gradient(150deg, #f2f2f2 12%, transparent 12.5%, transparent 87%, #f2f2f2 87.5%, #f2f2f2), linear-gradient(60deg, #f2f2f277 25%, transparent 25.5%, transparent 75%, #f2f2f277 75%, #f2f2f277), linear-gradient(60deg, #f2f2f277 25%, transparent 25.5%, transparent 75%, #f2f2f277 75%, #f2f2f277);
+background-size: 38px 67px;
+background-position: 0 0, 0 0, 19px 33px, 19px 33px, 0 0, 19px 33px; */
+
+
+background-attachment: fixed;
+}
+
+
+
+
+

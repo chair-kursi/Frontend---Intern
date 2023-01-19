@@ -1,0 +1,251 @@
+.head{
+    text-align: center;
+}
+/* 
+.hexagon {
+    position: relative;
+    transform: rotate(90deg);
+    width: 300px; 
+    height: 173.21px;
+    background-color: #64C7CC;
+    margin: 86.60px 0;
+    box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 86.60px solid #64C7CC;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 86.60px solid #64C7CC;
+   
+  } */
+
+  /* .hexagon {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    background-color: #64C7CC;
+    margin: 86.60px 0;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+    transform: rotate(90deg);
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 43.9340px;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+  }
+  
+  .hexagon:before {
+    top: -106.0660px;
+  }
+  
+  .hexagon:after {
+    bottom: -106.0660px;
+  }
+  
+  /*cover up extra shadows*/
+  /* .hexagon span {
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0;
+    width:300px;
+    height:173.2051px;
+    z-index: 2;
+    background: inherit;  
+  } */
+/* 
+  .hx1{
+    top:50px;
+    left:400px;
+    
+  }
+
+  .hx2{
+      top:-60px;
+      left:665px;
+  }
+
+  .hx3{
+      top:-15px;
+      left:665px;
+  }
+
+  .hx4{
+      top:-120px;
+      left :403px;
+  } */
+
+  /* .fs{
+    z-index:10;
+    transform: rotate(-90deg);
+    position :relative;
+    bottom:40px;
+    right:110px;
+    font-size: 30px !important;
+
+  }
+  .sc{
+    z-index:10;
+    transform: rotate(-90deg);
+    position :relative;
+    bottom:40px;
+    right:110px;
+    font-size: 30px !important;
+    
+  }
+  .th{
+    z-index:10;
+    transform: rotate(-90deg);
+    position :relative;
+    bottom:40px;
+    right:110px;
+    font-size: 30px !important;
+    
+  }
+  .fr{
+    z-index:10;
+    transform: rotate(-90deg);
+    position :relative;
+    bottom:40px;
+    right:110px;
+    font-size: 30px !important;
+  } */
+ 
+  .hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    background-color: hsl(183, 100%, 91%);
+    margin: 57.74px 0;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+    border-left: solid 5px #333333;
+    border-right: solid 5px #333333;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 141.42px;
+    height: 141.42px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 24.2893px;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+  }
+  
+  .hexagon:before {
+    top: -70.7107px;
+    border-top: solid 7.0711px #333333;
+    border-right: solid 7.0711px #333333;
+  }
+  
+  .hexagon:after {
+    bottom: -70.7107px;
+    border-bottom: solid 7.0711px #333333;
+    border-left: solid 7.0711px #333333;
+  }
+  
+  /*cover up extra shadows*/
+  .hexagon span {
+    display: block;
+    position: absolute;
+    top:2.8867513459481287px;
+    left: 0;
+    width:190px;
+    height:109.6966px;
+    z-index: 2;
+    background: inherit;
+  }
+
+  .hx1{
+    top:50px;
+    left:200px;
+    display:inline-block;
+  }
+
+  .hx2{
+      top:-30px;
+      left:300px;
+      display:inline-block;
+  }
+
+  .hx3{
+      top:-110px;
+      left:200px;
+      display:inline-block;
+  }
+
+  .hx4{
+      top:-190px;
+      left :300px;
+      display:inline-block;
+  }
+
+  .rectangle1{
+      width:600px;
+      height:120px;
+      position:relative;
+      left:205px;
+      top:130px;
+      display:inline-block;
+      background-color: #64C7CC;
+  }
+
+  .rectangle2{
+    width:505px;
+    height:120px;
+    position:relative;
+    left:305px;
+    top:50px;
+    display:inline-block;
+    background-color: #64C7CC;
+}
+
+.rectangle3{
+    width:600px;
+    height:120px;
+    position:relative;
+    left:205px;
+    top:-28px;
+    display:inline-block;
+    background-color: #64C7CC;
+}
+
+.rectangle4{
+    width:500px;
+    height:120px;
+    position:relative;
+    left:305px;
+    top:-110px;
+    display:inline-block;
+    background-color: #64C7CC;
+}

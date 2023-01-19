@@ -1,0 +1,409 @@
+#my-fo {
+  position: relative;
+  top: 200px;
+  left: 50%;
+  width: 800px;
+  height: 800px !important;
+  margin: 50px 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: var(--formc);
+  padding: 100px;
+}
+
+#my-form {
+  position: relative;
+  top: 210px !important;
+  left: 50%;
+  width: 800px;
+  height: 800px !important;
+  margin: 50px 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: var(--formc);
+  padding: 100px;
+}
+#my-formss {
+  position: relative;
+  top: 370px;
+  left: 50%;
+  width: 800px;
+  height: 800px !important;
+  margin: 50px 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: var(--formc);
+  padding: 100px;
+}
+
+.log-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.log-part{
+text-align: center;
+}
+.log-form {
+  background-color: var(--formc);
+  height: 500px;
+  width: 800px;
+  padding: 80px 0;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.cros { 
+  position: relative;
+  left: 550px;
+  top: -95px;
+  cursor: pointer;
+  width: 20px;
+}
+
+
+
+
+.write{
+  margin-top: 50px;
+}
+.my-dp{
+  margin-top: 50px;
+}
+.my-d{
+  position: relative;
+  top: -200px;
+}
+.cross{ 
+  position: relative;
+  left: 375px;
+  top: -90px;
+  cursor: pointer;
+}
+.crosss{
+  width: 30px;
+  margin: 2% 0 7% 0;
+  z-index: 5; 
+  position: relative;
+  /* margin-bottom: 7%; */
+  left: 5%;
+  cursor: pointer;
+}
+
+#my-forms {
+  position: relative;
+  z-index: 0;
+  top: 100px;
+  left: 50%;
+  width: max-content;
+  margin: 50px 0;
+  text-align: center;
+  margin-bottom: 2px;
+  transform: translate(-50%, -50%);
+  background-color: var(--formc);
+  padding: 0px 100px 10px 100px;
+}
+
+.req{
+  color:red;
+  position: relative;
+  bottom:0px !important;
+  right: 5px !important;
+  font-size: 20px !important;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 2px solid gray !important;
+  background-color: var(--formc) !important;
+  width: 450px !important;
+}
+
+.flag-dropdown {
+  border: none !important;
+  border-bottom: 2px solid gray !important;
+  background-color: var(--formc) !important;
+}
+
+.lab {
+  text-transform: capitalize;
+  text-align: right !important;
+  /* margin-top: 10px;
+  display: inline-block;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: .8em;
+  color: black;
+  width: 200px; */
+}
+
+.in[type=text] {
+  display: inline-block;
+  border: none;
+  text-align: left;
+  border-bottom: 2px solid gray;
+  /* box-shadow: 3px 2px gray; */
+  padding: 10px;
+  width: 350px !important;
+  /* margin: 10px 0; */
+  background: transparent;
+  color: black;
+}
+
+.in[type=text]:focus {
+  background: none;
+  border: none;
+  color: black;
+}
+
+
+.in[type=password] {
+  display: inline-block;
+  border: none;
+  text-align: left;
+  border-bottom: 2px solid gray;
+  /* box-shadow: 3px 2px gray; */
+  padding: 10px;
+  width: 350px !important;
+  /* margin: 10px 0; */
+  background: transparent;
+  color: black;
+}
+
+.in[type=password]:focus {
+  background: none;
+  border: none;
+  color: black;
+}
+
+.css-g1d714-ValueContainer {
+  border: none !important;
+  background-color: var(--formc) !important;
+}
+
+.css-yk16xz-control {
+  border: none !important;
+  border-bottom: 2px solid gray !important;
+  background-color: var(--formc) !important;
+}
+
+.inp {
+  border: none !important;
+  width: 350px !important;
+  /* background-color: var(--formc) !important; */
+}
+.ins{
+  text-align: left !important;
+  width: 350px !important;
+}
+.react-tel-input {
+  /* margin: auto !important; */
+  width: 350px !important;
+  border: none;
+  text-align: left;
+}
+
+.PhoneInputInput {
+  flex: 0 0 !important;
+  min-width: 450px !important;
+  /* width :200px; */
+  display: inline-block;
+  border: none;
+  text-align: left;
+  border-bottom: 2px solid gray;
+  /* padding: 10px; */
+  /* margin: 10px 0; */
+  background: transparent;
+  color: #FFF;
+}
+
+.err{
+  color:red!important;
+  font-size:13px !important;
+  /* text-align: left !important; */
+  /* margin:auto !important; */
+  position:relative;
+  bottom:200px;
+  left:30px;
+}
+
+.errr{
+  color:red!important;
+  font-size:13px !important;
+  /* text-align: left !important; */
+  /* margin:auto !important; */
+  position:relative;
+  bottom:200px;
+  left:0px;
+}
+
+.psd{
+  position:relative;
+  left :30px;
+}
+
+.but {
+  background: transparent;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  border: 2px solid black;
+}
+
+.but:hover {
+  background: transparent;
+  border: 2px solid red;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+}
+.btn-outline-primary.focus, .btn-outline-primary:focus{
+  box-shadow: 0 0 0 rgb(0 123 255 / 50%) !important;
+}
+.log{
+  cursor: pointer !important;
+}
+.reset{
+  text-decoration: none;
+  color: black;
+}
+
+.reset:hover{
+  text-decoration: none;
+  color: rgb(7, 93, 252);
+}
+
+/* .css-1xdhyk6{
+  margin-left:10px !important;
+  margin-top: 50px !important;
+} */
+.loader{
+    width:100px !important;
+    position: relative !important;
+    bottom: 60px !important;
+    left : 380px;
+    /* margin-left:10px !important;
+    margin-top: 0px !important;
+    margin-right:0px !important; */
+  
+}
+
+@media (max-width: 700px) {
+  .log-form {
+    position: relative;
+    top: -50px;
+    height: 550px !important;
+    padding: 0;
+    padding-top: 50px;
+    margin: 53px 0 20px 0;
+    width: 370px;
+  }
+
+
+
+  #my-form {
+    height: 950px !important;
+    position: relative;
+    top: 360px !important;
+    margin: 0;
+    padding: 100px 0 50px 0;
+    width: 370px;
+  }
+  #my-formss {
+    height: 850px !important;
+    padding: 0;
+    margin: 53px 0 20px 0;
+    width: 370px;
+  }
+  #my-fo {
+    height: 890px !important;
+    padding: 50px 0;
+    top: 270px;
+    width: 370px;
+    /* height: 90% !important; */
+  }
+  .my-dp{
+    /* width: 380px; */
+    margin-top: 100px;
+  }
+
+
+.Resume{
+  margin-left: 50px;
+}
+
+
+.ins, .inp{
+  width: 215px !important;
+}
+.css-2b097c-container{
+  width: 1300px !important;
+  margin-left: 40px;
+}
+.form-control{
+  width: 280px !important;
+}
+  .in[type=text], .in[type=password],
+  .react-tel-input{
+    width: 280px !important;
+    margin-left: 50px;
+  }
+  
+
+  .num{
+    margin-left: -25px;
+    width: 350px;
+  }
+
+  .lab {
+    margin-left: 40px;
+    width: 600px !important;
+    text-align: left !important;
+  }
+
+  .btn-outline-primary{
+    font-size: 14px !important;
+  }
+
+
+  .but-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  #my-forms{
+    position: relative;
+    padding: 0;
+    width: 385px;
+    top: 180px !important;
+  }
+
+  .loader{
+    width:100px !important;
+    position: relative !important;
+    bottom: 60px !important;
+    left : 150px;
+  }
+  .cross{
+    left: 485px;
+  }
+  .crosss{
+    margin: -17% 0 7% 0;
+  }
+  .cros {
+    left: 300px;
+  }
+}
+
